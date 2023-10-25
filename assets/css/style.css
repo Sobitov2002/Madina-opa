@@ -13,7 +13,14 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.dark_site{
+  --primary-color: white;
+  --dark-color: white;
+}
+:root{
+  --primary-color: #1A1919;
+  --dark-color: white;
+}
 a {
   color: #ffb727;
   text-decoration: none;

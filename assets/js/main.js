@@ -253,3 +253,25 @@
 
 })()
 
+
+//Site Dark / Light section
+
+let darkLight = document.getElementById('dark_site'),
+    bd = document.getElementById('body')
+   let sectionTitle = document.getElementsByClassName(".section_title")
+let switvch = true;
+darkLight.addEventListener('click', (e) =>{
+  e.preventDefault();
+  if(switvch === true){
+    darkLight.innerHTML= "Light";
+    bd.style.backgroundColor = '#1A1919';
+    switvch = false;
+  }else 
+  if(switvch === false){
+    darkLight.innerHTML= "Dark"
+    bd.style.backgroundColor = '#fff';    
+    switvch = true
+  }
+})
+console.log(sectionTitle);
+
