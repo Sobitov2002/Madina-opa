@@ -767,6 +767,30 @@ section {
 .services .icon-box:hover .title a {
   color: black;
 }
+.frend_social-media{
+  width: 50%;
+  margin: auto;
+}
+.media_items{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+.media_item{
+  margin: 15px;
+}
+.media_link > i {
+  font-size: 40px;
+  color: white;
+}
+.media_link > i:hover {
+  font-size: 40px;
+  color: #ffb727;
+  transition: all .2s ease-in;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
