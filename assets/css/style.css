@@ -754,9 +754,10 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 28px;
   margin-bottom: 0;
+  letter-spacing: 1px;
 }
 
 .services .icon-box:hover {
